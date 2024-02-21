@@ -16,6 +16,9 @@
     new WOW().init();
 
 
+    //footer page
+    $('#footer').load('footer.html');
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 45) {
@@ -109,8 +112,6 @@
     });
 
     
-    //footer page
-	$('#footer').load('footer.html');
 	
    // Back to top button
    $(window).scroll(function () {
