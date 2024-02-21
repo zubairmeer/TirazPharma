@@ -17,7 +17,9 @@
 
 
     //footer page
-    $('#footer').load('footer.html');
+  $(function(){
+      $("#footer").load("footer.html"); 
+    });
 
     // Sticky Navbar
     $(window).scroll(function () {
